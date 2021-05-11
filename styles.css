@@ -109,7 +109,7 @@ h1 {
 
 .message {
   font-size: 1.2rem;
-  margin-bottom: 1rem;
+  margin: 2rem;
   height: 3rem;
 }
 
@@ -122,3 +122,54 @@ h1 {
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
+
+
+
+
+
+
+@media(max-width: 850px){
+    html{
+        font-size:50%;
+    }
+
+    .message{
+        margin-left: 7rem;
+    }
+
+    .again{
+        font-size:150%;
+    }
+
+    .between{
+        font-size: 120%;
+    }
+
+    .btn{
+        font-size: 120%;
+    }
+}
+
+
+
+/* @media(max-width: 700px){
+    html{
+        font-size:40%;
+    }
+
+    .message{
+        margin-left: 6rem;
+    }
+
+    .again{
+        font-size:150%;
+    }
+
+    .between{
+        font-size: 120%;
+    }
+
+    .btn{
+        font-size: 120%;
+    }
+} */
